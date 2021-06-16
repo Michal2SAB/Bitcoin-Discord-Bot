@@ -1,0 +1,23 @@
+{
+  "name": "bitcoin-discord-bot",
+  "version": "1.0.0",
+  "description": "Bitcoin bot for discord",
+  "main": "run.js",
+  "dependencies": {},
+  "devDependencies": {
+    "coinkey": "^3.0.0",
+    "discord.js": "^12.5.3",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Bitcoin",
+    "discord"
+  ],
+  "author": "Michal2SAB",
+  "license": "ISC"
+}
