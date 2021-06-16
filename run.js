@@ -7,6 +7,7 @@ const client = new Client();
 const prefix = "/"
 
 client.on('ready', () => {
+    client.user.setActivity(`this won't appear in the bot's custom status!`, {type: 4})
     console.log(`Logged in as ${client.user.tag}!`);
 });
 
