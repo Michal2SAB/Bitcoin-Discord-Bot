@@ -1,6 +1,6 @@
 // Load the commands
-const btc = require('./commands/bitcoin.js');
-const eth = require('./commands/ethereum.js');
+const btc = require('./commands/cryptocurrency.js');
+const eth = btc;
 const luck = require('./commands/luck.js');
 
 // Define command symbol
@@ -25,6 +25,6 @@ module.exports = async function (msg) {
             .split(/\s+/);
       
         // Determine which command was called with const cmds defined above
-        cmds[cmd](msg, args);
+        cmds[cmd](msg, args, cmd);
     }
 };
