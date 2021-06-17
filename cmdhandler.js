@@ -3,7 +3,7 @@ const bitcoin = require('./commands/bitcoin.js');
 const luck = require('./commands/luck.js');
 
 // Define command symbol
-const prefix = ".";
+const prefix = "/";
 
 // Keep all commands in one place
 const cmds = { bitcoin, luck }
