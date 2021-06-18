@@ -3,7 +3,7 @@ const btc = require('./commands/cryptocurrency.js');
 const eth = btc;
 const luck = require('./commands/luck.js');
 const calc = require('./commands/calc.js');
-const bnews = require('/commands/bnews.js');
+const bnews = require('./commands/bnews.js');
 
 // Define command symbol
 const prefix = "/";
