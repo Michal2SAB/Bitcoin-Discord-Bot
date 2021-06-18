@@ -29,3 +29,10 @@ Node.js bitcoin bot for discord server.
   - Calculate something.
   - Usage: /calc [equation]
 </details>
+
+<details>
+  <summary>5. /bnews</summary>
+  
+  - Get the latest new post from the Bitcoin subreddit.
+  - Usage: /bnews
+</details>
