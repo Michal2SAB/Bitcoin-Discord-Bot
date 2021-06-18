@@ -3,12 +3,13 @@ const btc = require('./commands/cryptocurrency.js');
 const eth = btc;
 const luck = require('./commands/luck.js');
 const calc = require('./commands/calc.js');
+const bnews = require('/commands/bnews.js');
 
 // Define command symbol
 const prefix = "/";
 
 // Keep all commands in one place
-const cmds = { btc, eth, luck, calc }
+const cmds = { btc, eth, luck, calc, bnews }
 
 // Command handler function
 module.exports = async function (msg) {
