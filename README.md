@@ -36,3 +36,10 @@ Node.js bitcoin bot for discord server.
   - Get the latest new post from the Bitcoin subreddit.
   - Usage: /bnews
 </details>
+
+<details>
+  <summary>6. /ask</summary>
+  
+  - Ask the bot about anything and get a random no or yes.
+  - Usage: /ask [question]
+</details>
